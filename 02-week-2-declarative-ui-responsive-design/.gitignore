@@ -1,0 +1,48 @@
+# Miscellaneous / OS
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE / Editor
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart tooling & metadata
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.pub-cache/
+.pub/
+.metadata
+build/
+coverage/
+.widget_preview/
+
+# Platform folders (Android, iOS, Linux, macOS, Web, Windows)
+android/
+ios/
+linux/
+macos/
+web/
+windows/
+
+# Config & locks (agar hanya test, lib, screenshot/Screenshot, readme yang ke-upload)
+pubspec.yaml
+pubspec.lock
+analysis_options.yaml
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
