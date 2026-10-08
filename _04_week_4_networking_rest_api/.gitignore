@@ -1,0 +1,11 @@
+# Ignore everything in the root directory
+/*
+
+# Allow specific folders and files
+!/lib/
+!/test/
+!/Screenshot/
+!/README.md
+
+# Jangan lupakan file .gitignore ini sendiri
+!.gitignore
