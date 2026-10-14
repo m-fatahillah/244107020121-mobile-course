@@ -63,10 +63,9 @@ class PagedPostsNotifier extends AsyncNotifier<PagedPostsState> {
         isLoadingMore: false,
         hasMore: newPosts.length == _limit,
       ));
-    } catch (e, st) {
+    } catch (_) {
       state = AsyncData(currentState.copyWith(isLoadingMore: false));
-      ref.read(postRepositoryProvider); // avoid unused variable warning if any
-      throw e; // rethrow to be caught by UI or just let it fail
+      rethrow;
     }
   }
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../data/network_errors.dart';
 import '../data/providers.dart';
 
 class PostListPage extends ConsumerWidget {
